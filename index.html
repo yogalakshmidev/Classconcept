@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            This is about alert and prompt
+        </title>
+        <!--<script src="./alert.js"></script>-->
+        
+    </head>
+    <body>
+       <script>
+            //we can also access the code in the other js by simply mention like src="filename"
+           // alert("hi hello")
+            //console.log("This is the  console message");
+            //console.error("This is the  error message");
+            //let username = prompt("Enter your name:","venkat");
+            //alert("username is entered :"+username)
+            //let isConfirmed=confirm("Are you sure you want to navigate to another page");
+            //alert("Your"+isConfirmed);
+           /// document.write("This show in the page")//if we want to print or display some text in the page that we have to use document.write
+           
+// let books ={
+//     title : "Good Luck",
+//     authour: "venkat", 
+//     publishedyear: "2024"
+// }
+// for (let sangeeth in books){
+//     console.log(books[sangeeth]);
+// }
+
+            let numbers1=[10,20,30,40,50];//wanted to iterate over this array of elements
+            for(let num of numbers1){
+                console.log(num)
+            }
+
+            let str="venkat";
+            for(let singlechar of str)
+            {
+                console.log(singlechar);
+            }
+
+            let student={
+                name:"ram",
+                age: 20,
+                city:"chennai",
+                subjects:{
+                    math:"A",
+                    science:"B",
+                    social:"c"
+                }
+            }
+            for(let key in student){
+                console.log(key+":"+student[key]);
+            }
+
+            for(let key in student.subjects){
+                console.log(key+":"+student.subjects[key]);
+            }
+       </script>
+    </body>
+</html>

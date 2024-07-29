@@ -1,0 +1,10 @@
+variables
+    In javascript variables are used to store the data that can be referenced and manupulated with in the program
+    A variables act as container for the value
+
+    In javascript there are three ways to declare the variables
+
+    var
+    let
+    const      .
+    
