@@ -1,0 +1,179 @@
+<!-- table in html are used to organize  and display data in the tabular form -->
+<!-- 
+<table>-- defines the table
+<tr> defins the table row
+<td> defines table data
+<th> defines table header cell
+     -->
+<!-- <table border="1"> border collapse used to remove extra border -->
+<!--<!DOCTYPE html>
+<head>
+<title>tables</title>
+<style>
+    td,th{
+        border: 2px solid green
+    }
+    table{
+        border-collapse: collapse;
+        width: 100%;
+        }
+</style>
+</head>
+<body>
+
+    <table
+    <tr>
+        <th> NAME</th>
+        <th> CITY</th>
+        <th> HOBBIES</th>
+    </tr>
+    <tr>
+        <th> Venkat</th>
+        <th> Bangalaore</th>
+        <th> Gardening</th>
+    </tr>
+    <tr>
+        <th> Yoga</th>
+        <th> Madurai</th>
+        <th> Dancing</th>
+    </tr>
+</table>
+</body>
+</html>
+ -->
+
+<!-- 
+ <!DOCTYPE html>
+<head>
+<title>tables</title>
+<style>
+    td,th{
+        border: 2px solid green
+    }
+    table{
+        border-collapse: collapse;
+        width: 100%;
+        }
+</style>
+</head>
+<body>
+
+    <table>
+        <caption>Product list</caption>   
+        <thead style="background-color: beige;">
+            <tr>
+                <th>Product</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody style="background-color: aquamarine;">
+            <tr>
+                <td>Apple</td>
+                <td>1000$</td>
+            </tr>
+            <tr>
+                <td>vivo</td>
+                <td>1000$</td>
+            </tr>
+            <tr>
+                <td>Oppo</td>
+                <td>1000$</td>
+            </tr>
+        </tbody>
+        <tfoot style="background-color: orange;" >
+            <tr>
+                <td><b>TOTAL</b>></td>
+                <td>20000$</td>
+            </tr>
+        </tfoot>
+
+    </table>
+
+
+</body>
+</html> -->
+
+<!-- row span Row span attribute allows a cell to span multiple rows. This is basically useful
+when we want to display the data that occupies several rows in a single column
+and col span allows a cell to span multiple columns. this is useful for merging cells
+accross columns -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>tables</title>
+    <style>
+        td,
+        th {
+            border: 2px solid green
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th>Category</th>
+            <th>Items</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Fruits</td>
+            <td>Apple</td>
+        </tr>
+        <tr>
+            <td>orange</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Shirts</td>
+            <td>Plain Shirts</td>
+        </tr>
+        <tr>
+            <td>Check Shirts</td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th colspan="3">Product List</th>
+
+        </tr>
+        <tr>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Quantity</th>
+        </tr>
+        <tr>
+            <td>Milk</td>
+            <td>45RS</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>bread</td>
+            <td>100rs</td>
+            <td>2</td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th>Product</th>
+            <th colspan="2">Details</th>
+        </tr>
+        <tr>
+            <td>Apple</td>
+            <td>Price</td>
+            <td>10rs</td>
+        </tr>
+        <tr>
+            <td>Orange</td>
+            <td>Price</td>
+            <td>20rs</td>
+        </tr>
+
+    </table>
+</body>
+
+</html>

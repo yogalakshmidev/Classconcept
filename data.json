@@ -1,0 +1,17 @@
+//JSON::: JAVASCRIPT OBJECT NOTATION
+//data communication from the frontend and backend is done by json
+{
+    "name":"venkat",
+    "age": 20,
+    "isstudent":"false",
+    "address":{
+    "street":"1234 main road",
+    "city":"chennai",
+    "country":"INDIA"
+    },
+    "courses":[
+        "javascript",
+        "html",
+        "css"
+    ]
+}

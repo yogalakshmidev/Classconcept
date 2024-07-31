@@ -6,5 +6,19 @@ variables
 
     var
     let
-    const      .
+    const     
+    
+     HTML:
+     Hypertext Markup Language used to create and design the structure of the webpage.
+     It will describe tthe content and layout of the webpage by defining the elements
+
+     //why use HTML
+      to structure and to organize the content of the page
+      html provide the framework for the organizing the content of the page.
+      it allows us to define the structure of the page like adding the images, text, tables, input elements
+
+
+      //HTML (sematic)  --- used for the SEO search engine Optimization
+
+
     
